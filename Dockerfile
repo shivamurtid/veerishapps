@@ -20,7 +20,7 @@ FROM nginx:alpine
 # Copy build output to Nginx html directory
 COPY --from=builder /app/build /usr/share/nginx/html
 
-# Expose port 80
+# Expose port 80 good
 EXPOSE 80
 
 # Start Nginx
