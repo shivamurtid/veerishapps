@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git url: 'git@github.com:yourusername/your-repo.git', credentialsId: 'github-key'
+                git url: 'git@github.com:shivamurtid/veerishapps.git', credentialsId: 'github-key'
             }
         }
 
